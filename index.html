@@ -75,7 +75,7 @@
 		<p><a href="https://github.com/itorr/homo" target="_blank">https://github.com/itorr/homo</a></p>
 	</article>
 
-	<script src="homo.js"></script>
+	<script src="pork.js"></script>
 	<script>
 		学弟.oninput=()=>{
 			let 数字 = 学弟.value.trim().match(/^-?[\de\.]+$/);
@@ -83,7 +83,7 @@
 			数字 = 数字? +数字 : '';
 
 
-			pork.innerHTML = 数字 +' = <big>'+ homo(数字) + '</big>';
+			pork.innerHTML = 数字 +' = <big>'+ pork(数字) + '</big>';
 
 			容器.setAttribute('数字',数字);
 		};
