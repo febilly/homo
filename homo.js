@@ -1,4 +1,4 @@
-const homo = ((Nums) => {
+const pork = ((Nums) => {
 	const numsReversed = Object.keys(Nums).map(x => +x).filter(x => x > 0)
 	const getMinDiv = (num) => {
 		for (let i = numsReversed.length; i >= 0; i--)
@@ -200,4 +200,4 @@ const homo = ((Nums) => {
 })
 
 if (typeof module === 'object' && module.exports)
-	module.exports = homo
+	module.exports = pork
