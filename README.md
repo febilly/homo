@@ -1,6 +1,9 @@
 # 65472论证器
 一个将任意数字分解成 65472 构成的公式的工具。
 
+## Github Pages
+[https://febilly.github.io/pork/](https://febilly.github.io/pork/)
+
 ## 原项目首页
 [https://lab.magiconch.com/homo/](https://lab.magiconch.com/homo/)
 
