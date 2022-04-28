@@ -6,9 +6,9 @@
 
 ## 引用方式
 ```HTML
-<script src="homo.js"></script>
+<script src="pork.js"></script>
 <script>
-let 猪肉刺身 = homo(114514);
+let 猪肉刺身 = pork(114514);
 // "65472+(654*72+(65*4*7+2+(6+54+72)))"
 </script>
 ```
